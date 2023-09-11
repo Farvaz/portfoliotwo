@@ -1,0 +1,39 @@
+@import url(reset.css);
+@import url(head.css);
+
+body {
+    font-family: 'IBM Plex Mono', monospace;
+    min-width: 1400px;
+    font-weight: 400;
+    background: #000;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    margin-top: 150px;
+    color: white;
+}
+
+.container {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, p, a {
+    letter-spacing: -0.03em;
+}
+
+@media (max-width: 1199px) {
+    .container {
+        padding: 0 15px 0 17px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        padding: 0 12px 0 13px;
+    }
+}

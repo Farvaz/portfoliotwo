@@ -1,0 +1,203 @@
+
+section:last-child {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.head__nav {
+    float: right;
+}
+
+.head__nav a:hover {
+    color: #3db0f2;
+}
+
+.head__link {
+    margin-right: 41px;
+    line-height: 22px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+.head__link:last-child {
+    margin-right: 0;
+}
+
+.projects {
+    margin-top: 158px;
+}
+
+.projects__list {
+    margin-top: 49px;
+}
+
+.projects h2 {
+    font-size: 55px;
+}
+
+.project {
+    position: relative;
+}
+
+.project__wrapper {
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+}
+
+.project__title {
+    font-size: 35px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.project__description {
+    font-size: 30px;
+    margin-bottom: 11px;
+    color: white;
+}
+
+.project__btn {
+    display: block;
+    margin-top: 73px;
+    width: 582px;
+    height: 151px;
+    font-size: 30px;
+    line-height: 150px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid #3db0f2;
+    background-color: #3db0f2;
+    color: #000;
+}
+
+.project__btn:hover {
+    background-color: #000;
+    color: #3db0f2;
+}
+
+.competencies h2 {
+    font-size: 55px;
+}
+
+.competencies__list {
+    margin-top: 48px;
+}
+
+.competence {
+    margin-top: 61px;
+}
+
+.competence:first-child {
+    margin-top: 59px;
+}
+
+.competencies__title {
+    width: 751px;
+    margin-top: 12px;
+    font-size: 35px;
+    line-height: 47px;
+    color: #3db0f2;
+}
+  
+
+.competencies__description {
+    width: 778px;
+    margin-top: 15px;
+    font-size: 22px;
+    line-height: 29px;  
+}
+
+.services h2 {
+    width: 403px;
+    font-size: 35px;
+    line-height: 46px;
+}
+
+.services__list {
+    margin-top: 74px;
+}
+
+.service {
+    position: relative;
+    margin-top: 71px;
+}
+
+.service:first-child {
+    margin-top: 0;
+}
+
+.service:last-child {
+    margin-top: 127px;
+}
+
+.services__title {
+    position: absolute;
+    top: 250px;
+    left: 40px;
+    font-size: 55px;
+    color: #3db0f2;
+}
+
+.services__description {
+    position: absolute;
+    top: 314px;
+    left: 40px;
+    width: 749px;
+    margin-top: 15px;
+    font-size: 22px;
+    line-height: 28px;
+    
+}
+
+.contacts {
+    height: 711px;
+    background-image: url(../recoures/cuate.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    border-radius: 30px;
+    background-color: #191C19;
+}
+
+.contacts__text {
+    padding-top: 328px;
+    font-size: 35px;
+}
+
+.contact {
+    margin-top: 20px;
+}
+
+.contact:first-child {
+    margin-top: 35px;
+}
+
+.contacts__link {
+    font-size: 67px;
+    text-decoration: none;
+    color: white;
+}
+
+.contacts__link:hover {
+    color: #3db0f2;
+}
+
+footer {
+    background-color: white;
+    border-radius: 30px 30px 0 0;
+}
+
+.footer__description {
+    padding-top: 84px;
+    font-size: 23px;
+}
+
+.footer__text {
+    padding-top: 73px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    opacity: 0.5;
+}
