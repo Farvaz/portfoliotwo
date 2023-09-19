@@ -1,9 +1,10 @@
 @import url(reset.css);
 @import url(head.css);
+@import url(project.css);
 
 body {
     font-family: 'IBM Plex Mono', monospace;
-    min-width: 1400px;
+    
     font-weight: 400;
     background: #000;
 }
@@ -28,6 +29,7 @@ h1, h2, h3, p, a {
 
 @media (max-width: 1199px) {
     .container {
+        width: 100%;
         padding: 0 15px 0 17px;
     }
 }

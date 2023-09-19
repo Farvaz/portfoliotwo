@@ -1,0 +1,54 @@
+.projects {
+    margin-top: 158px;
+}
+
+.projects__list {
+    margin-top: 49px;
+}
+
+.projects h2 {
+    font-size: 55px;
+}
+
+.project {
+    position: relative;
+}
+
+.project__wrapper {
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+}
+
+.project__title {
+    font-size: 35px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.project__description {
+    font-size: 30px;
+    margin-bottom: 11px;
+    color: white;
+}
+
+.project__btn {
+    display: block;
+    margin-top: 73px;
+    width: 582px;
+    height: 151px;
+    font-size: 30px;
+    line-height: 150px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid #3db0f2;
+    background-color: #3db0f2;
+    color: #000;
+}
+
+.project__btn:hover {
+    background-color: #000;
+    color: #3db0f2;
+}
