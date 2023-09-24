@@ -24,38 +24,6 @@ section:last-child {
     margin-right: 0;
 }
 
-.competencies h2 {
-    font-size: 55px;
-}
-
-.competencies__list {
-    margin-top: 48px;
-}
-
-.competence {
-    margin-top: 61px;
-}
-
-.competence:first-child {
-    margin-top: 59px;
-}
-
-.competencies__title {
-    width: 751px;
-    margin-top: 12px;
-    font-size: 35px;
-    line-height: 47px;
-    color: #3db0f2;
-}
-  
-
-.competencies__description {
-    width: 778px;
-    margin-top: 15px;
-    font-size: 22px;
-    line-height: 29px;  
-}
-
 .services h2 {
     width: 403px;
     font-size: 35px;

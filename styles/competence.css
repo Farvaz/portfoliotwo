@@ -1,0 +1,46 @@
+.competencies .title {
+    color: #3db0f2;
+}
+
+.competence__badge {
+    width: 45px;
+    height: 44px; 
+    padding: 10px;
+    border-radius: 19px;
+    background-color: #3db0f2;
+}
+
+.competencies-wrapper {
+    margin-top: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 40px;
+}
+
+.competence {
+    width: calc(50% - 47px);
+}
+
+.competencies__title {
+    width: 575px;
+    margin-top: 15px;
+    font-size: 35px;
+    line-height: 45px;
+    color: #3db0f2;
+}
+  
+.competencies__description {
+    width: 515px;
+    margin-top: 15px;
+    font-size: 22px;
+    line-height: 28px;  
+}
+
+@media (max-width: 1199px) {
+   
+}
+
+@media (max-width: 767px) {
+    
+}

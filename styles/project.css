@@ -1,18 +1,21 @@
-.projects {
-    margin-top: 158px;
-}
 
 .projects__list {
     margin-top: 40px;
 }
 
-.projects h2 {
+.projects__title {
     font-size: 55px;
 }
 
 .project {
     position: relative;
 }
+
+.project__image {
+    width: 100%;
+    object-fit: cover;
+}
+
 
 .project__wrapper {
     position: absolute;
@@ -104,7 +107,7 @@
 
 @media (max-width: 767px) {
     .projects {
-        margin-top: 100px;
+        padding-top: 100px;
     }
     
     .projects h2 {
@@ -113,10 +116,12 @@
     }
 
     .project__text {
-        width: 149px;
-        font-size: 13px;
-        line-height: 17px;
+        width: 181px;
+        font-size: 15px;
+        line-height: 29px;
         top: -285px;
+        left: -33px;
+        font-weight: 900;
         padding: 6px 12px 6px 12px;
         border-radius: 64px;
     }

@@ -1,6 +1,7 @@
 @import url(reset.css);
 @import url(head.css);
 @import url(project.css);
+@import url(competence.css);
 
 body {
     font-family: 'IBM Plex Mono', monospace;
@@ -13,12 +14,8 @@ html {
     scroll-behavior: smooth;
 }
 
-html, body {
-    overflow-x: hidden;
-}
-
 section {
-    margin-top: 150px;
+    padding-top: 158px;
     color: white;
 }
 
@@ -31,10 +28,20 @@ h1, h2, h3, p, a {
     letter-spacing: -0.03em;
 }
 
+.title {
+    font-size: 55px;
+    line-height: 71px;
+}
+
 @media (max-width: 1199px) {
     .container {
         width: 100%;
         padding: 0 15px 0 17px;
+    }
+
+    .title {
+        font-size: 45px;
+        line-height: 58px;
     }
 }
 
