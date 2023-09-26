@@ -2,6 +2,7 @@
 @import url(head.css);
 @import url(project.css);
 @import url(competence.css);
+@import url(services.css);
 
 body {
     font-family: 'IBM Plex Mono', monospace;
@@ -15,7 +16,7 @@ html {
 }
 
 section {
-    padding-top: 158px;
+    padding-top: 150px;
     color: white;
 }
 
@@ -48,5 +49,9 @@ h1, h2, h3, p, a {
 @media (max-width: 767px) {
     .container {
         padding: 0 12px 0 13px;
+    }
+
+    section {
+        padding-top: 100px;
     }
 }

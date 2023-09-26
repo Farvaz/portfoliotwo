@@ -24,48 +24,6 @@ section:last-child {
     margin-right: 0;
 }
 
-.services h2 {
-    width: 403px;
-    font-size: 35px;
-    line-height: 46px;
-}
-
-.services__list {
-    margin-top: 74px;
-}
-
-.service {
-    position: relative;
-    margin-top: 71px;
-}
-
-.service:first-child {
-    margin-top: 0;
-}
-
-.service:last-child {
-    margin-top: 127px;
-}
-
-.services__title {
-    position: absolute;
-    top: 250px;
-    left: 40px;
-    font-size: 55px;
-    color: #3db0f2;
-}
-
-.services__description {
-    position: absolute;
-    top: 314px;
-    left: 40px;
-    width: 749px;
-    margin-top: 15px;
-    font-size: 22px;
-    line-height: 28px;
-    
-}
-
 .contacts {
     height: 711px;
     background-image: url(../recoures/cuate.png);
