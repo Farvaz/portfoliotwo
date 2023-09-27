@@ -3,6 +3,8 @@
 @import url(project.css);
 @import url(competence.css);
 @import url(services.css);
+@import url(contacts.css);
+  
 
 body {
     font-family: 'IBM Plex Mono', monospace;

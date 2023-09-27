@@ -1,0 +1,56 @@
+.contacts {
+    padding-top: 0;
+}
+
+.contacts {
+    height: 711px;
+    background-image: url(../recoures/cuate.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    border-radius: 30px;
+    background-color: #191C19;
+}
+
+.contact__wrapper {
+    padding-top: 100px;
+}
+
+.contact__title {
+    width: 553px;
+    font-size: 60px;
+    line-height: 60px;
+}
+
+.imput__content {
+    margin-top: 60px;
+}
+
+.input {
+    display: block;
+    box-sizing: border-box;
+    width: 567px;
+    height: 60px;   
+    font-size: 22px;
+    line-height: 28px;
+    margin-top: 26px;
+    border-radius: 100px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: #3B3D3B;
+}
+
+@media (max-width: 1199px) {
+    .contact__title {
+        width: 373px;
+        font-size: 40px;
+        line-height: 40px;
+    }
+}
+
+@media (max-width: 767px) {
+    .contact__title {
+        width: 310px;
+        font-size: 35px;
+        line-height: 35px;
+    }
+}

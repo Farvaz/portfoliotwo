@@ -112,49 +112,78 @@
             </div>
         </section>
 
+        <!--Секция УСЛУГИ-->
         <section class="services">
             <div class="container" id="services">
                 <h2 class="title">Помогаю реализовать широкий спектр задач</h2>
                 <ul class="services__list">
                     <li class="service">
-                        <img src="recoures/services/yourbusiness.png" alt="разработка сайта">
-                        <img class="services__image" src="recoures/services/blackbackground.png" alt="черный фон">
-                        <h3 class="services__title">Разработка сайта под ключ</h3>
-                        <p class="services__description">Это создание дизайн веб-сайтов, созданный для удобства пользователя и решения бизнес-задач
+                        <picture>
+                            <source media="(max-width: 767px)" srcset="/recoures/services/yourbusinessmob.png">
+                            <source media="(max-width: 1199px)" srcset="/recoures/services/yourbusinesstable.png">
+                            <img class="service__image" src="recoures/services/yourbusiness.png" alt="разработка сайта">
+                        </picture>
+                        <div class="service__wrapper">
+                            <h3 class="services__title">Разработка сайта под ключ</h3>
+                            <p class="services__description">Это создание дизайн веб-сайтов, созданный для удобства пользователя и решения бизнес-задач
                             Сайты должны быть понятными и удобными, ведь чем понятнее сайт, тем быстрее пользователь совершит целевое действие</p>
+                        </div>
                     </li>
                     <li class="service">
-                        <img src="recoures/services/momentsmove.png" alt="верстка сайта">
-                        <img class="services__image" src="recoures/services/blackbackground.png" alt="черный фон">
-                        <h3 class="services__title">Верстка сайтов</h3>
-                        <p class="services__description">Это процесс создания HTML-документов и применения к ним стилей на CSS. Фронтенд разработчик может помочь создать привлекательный и удобный интерфейс для вашего сайта</p>
+                        <picture>
+                            <source media="(max-width: 767px)" srcset="/recoures/services/momentsmovemob.png">
+                            <source media="(max-width: 1199px)" srcset="/recoures/services/momentsmovetable.png">
+                            <img class="service__image" src="recoures/services/momentsmove.png" alt="верстка сайта">
+                        </picture>
+                        <div class="service__wrapper">
+                            <h3 class="services__title">Верстка сайтов</h3>
+                            <p class="services__description">Это процесс создания HTML-документов и применения к ним стилей на CSS. Фронтенд разработчик может помочь создать привлекательный и удобный интерфейс для вашего сайта
+                            </p>
+                        </div>
                     </li>
                     <li class="service">
-                        <img src="recoures/services/mobainterface.png" alt="мобильный интерфейс">
-                        <img class="services__image" src="recoures/services/blackbackground.png" alt="черный фон">
-                        <h3 class="services__title">Разработка мобильного интерфейса</h3>
-                        <p class="services__description">Это процесс создания интерактивных элементов на странице с помощью JavaScript. Фронтенд разработчик может помочь создать динамический и удобный пользовательский интерфейс для вашего сайта или приложения.</p>
+                        <picture>
+                            <source media="(max-width: 767px)" srcset="/recoures/services/mobainterfacemob.png">
+                            <source media="(max-width: 1199px)" srcset="/recoures/services/mobainterfacetable.png">
+                            <img class="service__image" src="recoures/services/mobainterface.png" alt="мобильный интерфейс">
+                        </picture>
+                        <div class="service__wrapper">
+                            <h3 class="services__title">Разработка мобильного интерфейса</h3>
+                            <p class="services__description">Это процесс создания интерактивных элементов на странице с помощью JavaScript. Фронтенд разработчик может помочь создать динамический и удобный пользовательский интерфейс для вашего сайта или приложения.
+                            </p>
+                        </div>
                     </li>
                 </ul>
             </div>
         </section>
 
-
-         <!--
+        <!--Секция КОНТАКТЫ-->
         <section class="contacts">
             <div class="container" id="contacts">
-                <p class="contacts__text">для связи:</p>
-                <ul>
-                    <li class="contact">
-                        <a class="contacts__link" href="https://t.me/bybashqort" target="_blank">telegram</a>
-                    </li>
-                    <li class="contact">
-                        <a class="contacts__link" href="mailto:begunserega4@gmail.com" target="_blank">mail</a>
-                    </li>
-                </ul>
+                <div class="contact__wrapper">
+                    <p class="contact__title">Для связи со мной заполните простую форму</p>
+                    <div class="imput__content">
+                        <div class="input">
+                            <input
+                            class="input"
+                            type="text"
+                            name="name"
+                            placeholder="Имя Фамилия"
+                            />
+                        <input
+                            class="input"
+                            type="email"
+                            name="email"
+                            placeholder="Электроннная почта"
+                            />
+                        </div> 
+                    </div>
+                </div>
             </div>
         </section>
     </main>
+
+    <!--
     <footer>
         <div class="container">
             <p class="footer__description">Портфолио фротнтенд-разработчика Фарваза Шигапова</p>
