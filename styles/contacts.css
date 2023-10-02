@@ -21,36 +21,65 @@
     line-height: 60px;
 }
 
-.imput__content {
-    margin-top: 60px;
+.contacts__btn {
+    width: 450px;
+    height: 70px;
+    font-size: 22px;
+    margin-top: 79px;
+    border-radius: 10px;
+    border: 1px solid #3db0f2;
+    background-color: #3db0f2;
+    cursor: pointer;
 }
 
-.input {
-    display: block;
-    box-sizing: border-box;
-    width: 567px;
-    height: 60px;   
-    font-size: 22px;
-    line-height: 28px;
-    margin-top: 26px;
-    border-radius: 100px;
-    border: none;
-    border-bottom: 1px solid black;
-    background-color: #3B3D3B;
+.contacts__btn:hover {
+    border: 1px solid #3db0f2;
+    background-color: #191C19;
+    color: #3db0f2;
 }
 
 @media (max-width: 1199px) {
+    .contacts {
+        height: 484px;
+        background-image: url(../recoures/cuatetable.png);
+        border-radius: 30px;
+    }
+    
+
+    .contact__wrapper {
+        padding-top: 50px;
+    }
+
     .contact__title {
         width: 373px;
         font-size: 40px;
         line-height: 40px;
     }
+
+    .contacts__btn {
+        width: 304px;
+        height: 47px;
+        font-size: 16px;
+        margin-top: 40px;
+        border-radius: 6px;
+    }
 }
 
 @media (max-width: 767px) {
+    .contacts {
+        background-image: none;
+    }
+
     .contact__title {
         width: 310px;
         font-size: 35px;
-        line-height: 35px;
+        line-height: 37px;
+    }
+
+    .contacts__btn {
+        width: 100%;
+        height: 43px;
+        font-size: 15px;
+        border-radius: 6px;
     }
 }
