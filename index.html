@@ -119,8 +119,8 @@
                 <ul class="services__list">
                     <li class="service">
                         <picture>
-                            <source media="(max-width: 767px)" srcset="/recoures/services/yourbusinessmob.png">
-                            <source media="(max-width: 1199px)" srcset="/recoures/services/yourbusinesstable.png">
+                            <source media="(max-width: 767px)" srcset="recoures/services/yourbusinessmob.png">
+                            <source media="(max-width: 1199px)" srcset="recoures/services/yourbusinesstable.png">
                             <img class="service__image" src="recoures/services/yourbusiness.png" alt="разработка сайта">
                         </picture>
                         <div class="service__wrapper">
@@ -131,8 +131,8 @@
                     </li>
                     <li class="service">
                         <picture>
-                            <source media="(max-width: 767px)" srcset="/recoures/services/momentsmovemob.png">
-                            <source media="(max-width: 1199px)" srcset="/recoures/services/momentsmovetable.png">
+                            <source media="(max-width: 767px)" srcset="recoures/services/momentsmovemob.png">
+                            <source media="(max-width: 1199px)" srcset="recoures/services/momentsmovetable.png">
                             <img class="service__image" src="recoures/services/momentsmove.png" alt="верстка сайта">
                         </picture>
                         <div class="service__wrapper">
@@ -143,8 +143,8 @@
                     </li>
                     <li class="service">
                         <picture>
-                            <source media="(max-width: 767px)" srcset="/recoures/services/mobainterfacemob.png">
-                            <source media="(max-width: 1199px)" srcset="/recoures/services/mobainterfacetable.png">
+                            <source media="(max-width: 767px)" srcset="recoures/services/mobainterfacemob.png">
+                            <source media="(max-width: 1199px)" srcset="recoures/services/mobainterfacetable.png">
                             <img class="service__image" src="recoures/services/mobainterface.png" alt="мобильный интерфейс">
                         </picture>
                         <div class="service__wrapper">
@@ -157,11 +157,9 @@
             </div>
         </section>
 
-
-       
         <!--Секция КОНТАКТЫ-->
         <section class="contacts">
-            <div class="container" id="contacts">
+            <div class="container" id="contact">
                 <div class="contact__wrapper">
                     <p class="contact__title">Для связи со мной заполните простую форму</p>
                     <div class="imput__content">
@@ -184,13 +182,21 @@
         </section>
     </main>
 
-    <!--
-    <footer>
+    <footer class="footer">
         <div class="container">
-            <p class="footer__description">Портфолио фротнтенд-разработчика Фарваза Шигапова</p>
-            <p class="footer__text">Все права защищены. 2023</p>
+            <div class="footer__inner">
+                <p class="footer__description">Портфолио фротнтенд-разработчика Фарваза Шигапова</p>
+                <nav class="nav">
+                    <a class="contacts__link" href="#">mail</a>
+                    <a class="contacts__link" href="#">telegram</a>
+                    <a class="contacts__link" href="#">instagram</a>
+                </nav>
+            </div>
+            <div class="footer__wrapper">
+                <p class="footer__text">Все права защищены. 2023</p>
+                <P class="footer__text">политика обработки данных</P>
+            </div>
         </div>
     </footer>
-    -->
 </body>
 </html>
