@@ -18,22 +18,46 @@
 <body>
  
     <header class="header">
-        <div class="head-wrapper"> 
-        
             <div class="container">
+                <div class="head__wrapper">
+                    <a class="mylogo" href="">SHIGAPOV</a>
+                    <nav class="head__nav">
+                        <a class="head__link" href="#project">портфолио</a>
+                        <a class="head__link" href="#competencie">компетенции</a>
+                        <a class="head__link" href="#service">услуги</a>
+                        <a class="head__link" href="#footer">контакты</a>
+                    </nav>
+                </div>
                 <p class="head__text">Разрабатываю имиджевые сайты для малого и среднего бизнеса, которые повышают престиж компании и позволяют выделиться на фоне конкурентов</p>
                 <h1 class="head__title">Привет, я Фарваз — фронтенд разработчик</h1> 
-                <a class="mylogo" href="">SHIGAPOV</a>                                 
+                <button class="js-burger-btn burger-btn"></button>                                 
+            </div>  
+            
+            <div class="js-burger burger">
+                <div class="js-burger__contetn burger__contetn">
+                    <a href="">
+                        <img class="inburgerlogo" src="resources/met-logo.jpg" alt="">
+                    </a>
+                    <nav class="burger__nav">
+                        <a class="burger__link" href="#project">портфолио</a>
+                        <a class="burger__link" href="#competencie">компетенции</a>
+                        <a class="burger__link" href="#service">услуги</a>
+                        <a class="burger__link" href="#footer">контакты</a>
+                    </nav>
+                    <h3 class="burger__content__title">ДЛЯ СВЗЯИ:</h3>
+                    <div class="burger__contact__list">
+                        <a class="burger__phone" href="tel:+7 935  895-45-35">+7 935  895-45-35</a>
+                        <a class="burger__telegram" href="https://t.me/bybashqort" target="_blank">Fara@mail.ru</a>
+                    </div>
+                </div>
             </div>
-                          
-        </div>                    
     </header>
     
     
     <main>
         <!--Секция ПРОЕКТЫ-->
         <section class="projects">
-            <div class="container" id="projects">
+            <div class="container" id="project">
                 <h2 class="title">Самые свежие проекты</h2>
                 <ul class="projects__list">
                     <li class="project">
@@ -85,7 +109,7 @@
 
         <!--Секция КОМПЕТЕНЦИИ-->
         <section class="competencies">
-            <div class="container" id="competencies">
+            <div class="container" id="competencie">
                 <h2 class="title"> Мои компетенции</h2>
                 <ul class="competencies-wrapper">
                     <li class="competence">
@@ -114,7 +138,7 @@
 
         <!--Секция УСЛУГИ-->
         <section class="services">
-            <div class="container" id="services">
+            <div class="container" id="service">
                 <h2 class="title">Помогаю реализовать широкий спектр задач</h2>
                 <ul class="services__list">
                     <li class="service">
@@ -161,8 +185,8 @@
         <section class="contacts">
             <div class="container" id="contact">
                 <div class="contact__wrapper">
-                    <p class="contact__title">Для связи со мной заполните простую форму</p>
-                    <div class="imput__content">
+                    <p class="contact__title">Для связи со мной заполните простую форму</p>                  
+                    <div class="input__content">
                             <input
                             class="input"
                             type="text"
@@ -175,17 +199,17 @@
                             name="email"
                             placeholder="Электроннная почта"
                             />
-                    </div>
-                    <button class="contacts__btn">Отправить</button>
+                    </div> 
+                    <button class="contacts__btn">Отправить</button>                 
                 </div>
             </div>
         </section>
     </main>
 
     <footer class="footer">
-        <div class="container">
+        <div class="container" id="footer">
             <div class="footer__inner">
-                <p class="footer__description">Портфолио фротнтенд-разработчика Фарваза Шигапова</p>
+                <p class="footer__description">Портфолио фронтенд-разработчика Фарваза Шигапова</p>
                 <nav class="nav">
                     <a class="contacts__link" href="#">mail</a>
                     <a class="contacts__link" href="#">telegram</a>
@@ -198,5 +222,7 @@
             </div>
         </div>
     </footer>
+
+    <script src="burger.js"></script>
 </body>
 </html>

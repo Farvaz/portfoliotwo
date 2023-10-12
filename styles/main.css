@@ -1,18 +1,22 @@
-@import url(reset.css);
-@import url(head.css);
-@import url(project.css);
-@import url(competence.css);
-@import url(services.css);
-@import url(contacts.css);
-@import url(input.css);
-@import url(footer.css);
+@import url(../styles/reset.css);
+@import url(../styles/head.css);
+@import url(../styles/project.css);
+@import url(../styles/competence.css);
+@import url(../styles/services.css);
+@import url(../styles/contacts.css);
+@import url(../styles/input.css);
+@import url(../styles/footer.css);
+@import url(../styles/burger.css);
   
 
 body {
     font-family: 'IBM Plex Mono', monospace;
-    
     font-weight: 400;
     background: #000;
+}
+
+.body_fixed {
+    overflow: hidden;
 }
 
 html {
